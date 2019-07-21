@@ -10,3 +10,11 @@
 [title^="Section skills"]{color: cornsilk}
 
 [title$="skills"]{color: darkmagenta}
+
+[title]:last-child{
+    background-color: pink
+}
+
+nav>ul>li>a[title] {color: blue}
+
+p:hover{color: blue}
