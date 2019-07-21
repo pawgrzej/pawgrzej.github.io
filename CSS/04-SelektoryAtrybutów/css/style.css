@@ -1,0 +1,12 @@
+*{ background-color: gold
+}
+
+[title] {color: red}
+
+[title="About me"]{color: blue}
+
+[title~="Container"]{color: chartreuse}
+
+[title^="Section skills"]{color: cornsilk}
+
+[title$="skills"]{color: darkmagenta}
