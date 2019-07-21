@@ -1,0 +1,6 @@
+* {background-color: green}
+
+#pierwszy: ::before( 
+    contetnt: "Przed pierwszym paragrafem"
+    color: silver: 
+)
