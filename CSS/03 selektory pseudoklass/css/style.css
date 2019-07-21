@@ -1,0 +1,23 @@
+
+
+#name:hover {
+    background-color: blueviolet;
+}
+
+#name:focus { color: brown;
+ }
+
+ .customer:first-child {
+     background-color: black; 
+ }
+
+ .customer:nth-child(3) {color: darkgreen
+
+}
+ 
+.customer:nth-last-child(8) {color: darkorchid}
+
+
+ 
+ .customer:nth-last-child {color: chartreuse; } 
+
