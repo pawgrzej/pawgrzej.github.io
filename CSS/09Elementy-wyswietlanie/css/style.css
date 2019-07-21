@@ -1,0 +1,30 @@
+#p1 {
+
+    background-color: red;
+}
+
+#p2 {background-color: blue; }
+
+
+#inline-elements {
+    background-color: green;
+}
+
+#inline-p1 {
+
+    background-color: aqua;
+    display: inline;
+
+
+ 
+    
+}
+
+#inline-block-elements  li {
+
+    display: inline-block;
+    width: 100px;
+    height:30px;
+    margin: 5px;
+    background-color: pink;
+}
