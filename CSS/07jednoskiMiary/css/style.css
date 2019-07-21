@@ -1,0 +1,32 @@
+#container{
+    font-size: 20px;
+}
+
+#container{
+    font-size: 20px;
+
+}
+
+#container>div{
+    background-color: blue;
+    margin-bottom: 15px;
+
+    
+}
+
+#pixels{
+    width: 400px;
+
+}
+
+#em{ 
+    width: 20em;
+
+}
+#perecent{
+    width: 50%;
+
+}
+#vh{
+    width: 60vh;
+}
