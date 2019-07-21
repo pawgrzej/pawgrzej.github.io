@@ -1,0 +1,47 @@
+form{
+    background-color:#213b50;
+    color: #ffffff;
+    width: 600px;
+    padding:20px;
+
+
+}
+
+form input, form select{
+    margin-bottom: 10px;
+    background-color:  #4e708c;
+    color: #ffffff;
+
+}
+
+
+form input{
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+form label{ 
+    display:block;
+    margin-bottom: 5px;
+
+}
+
+form select, form input[type="text"],form input[type="tel"],
+form input[type="email"]{
+    width: 300px;
+    background-color:  #2b4a64;
+    color: #ffffff;
+    border: #2b4a64
+    
+
+}
+
+form input[type="checkbox"]{
+    width: 20px;
+
+
+}
+
+
+
