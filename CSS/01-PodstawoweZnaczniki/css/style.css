@@ -1,0 +1,17 @@
+p {background-color: cadetblue
+
+}
+
+#kasia {color: crimson}
+
+
+.lorak {color: blueviolet
+}
+
+ul a {color: blueviolet}
+ a > span {background-color: coral}
+a >span {color: darkgreen}
+
+li#pierwszy ~ li {background-color: darkslategray}
+
+li#pierwszy + li { background-color: firebrick}
