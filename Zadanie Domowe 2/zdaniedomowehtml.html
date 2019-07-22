@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ZdanieDomowe2</title>
+
+
+</head>
+<body>
+
+<p>Formularz Zgłoszeniowy na Szkolenie</p>
+
+
+    <form action="https://formspree.io/pawel.grzejszczak@gmail.com" method="POST">
+
+
+
+        <label for="name">Imie; </label>
+        <input type="text" name="name" id="name">
+
+        <br>
+        <label for="lastname">Nazwisko</label>
+        <input type="text" name="lastname" id="lastname">
+
+        <br>
+        <label for="email">Emial: </label>
+        <input type="email" name="emial" id="email">
+
+
+        <br>
+        <label for="phone">nr:telefonu</label>
+        <input type="tel" name="phone" id="phone">
+
+        <br>
+        <label for="city">Miasto:</label>
+        <select name="city" id="city">
+        <option value="Kraków">Kraków</option>
+        <option value="Warszawa">Warszawa</option>
+        <option value="Gdańsk">Gdańsk</option>
+        </select>
+
+        <br>
+        <p>Wybirz Płeć</p>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Mężczyzna</label>
+
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Kobieta </label>
+        
+
+        <p>Wrazie jakich kolwiek pytań napisz do nas krótka wiadomość</p>
+        <label for="message">Waidmość:</label>
+        <textarea name="message" id="message"></textarea>
+
+        <br>
+        <input type="submit" value="send">
+
+    </form>
+</body>
+</html>
