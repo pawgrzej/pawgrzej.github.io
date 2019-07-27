@@ -2,7 +2,8 @@
 
     width: 150px;
     height: 150px;
-    margin: 20px;
+    margin: 200px;
+    left: auto;
 
 }
 
@@ -21,7 +22,7 @@ background-color: blue
 #box1 {
 
   background-color: brown;
-  transition: width 300px;
+  transition: width 3s;
 }
 
 
@@ -31,13 +32,15 @@ background-color: blueviolet;
 
 #box2 {
 background-color: pink;
-transition: height 300px;
+transition: height 3s;
 
 }
 
 #box2:hover {
 
-    background-color: chocolate
+    background-color: chocolate;
+    height:200px;
+    width:100px;
 }
 
 
