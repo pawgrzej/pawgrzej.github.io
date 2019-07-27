@@ -1,0 +1,13 @@
+body {
+    background-color: white;
+    background-size: auto;
+}
+
+#background-img {
+    background-image: url(../img/truskawka.jpg);
+    background-size: auto;
+    background-position: left; 
+    background-repeat: repeat-y;
+    
+}
+
