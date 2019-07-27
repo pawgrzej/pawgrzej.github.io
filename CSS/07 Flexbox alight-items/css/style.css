@@ -4,15 +4,16 @@
     padding: 10px;
     margin: 3px;
     background-color: blue;
-    flex-basis: 27%;
-   max-height: 250px; 
+    flex-basis: 20%;
+    max-width: 300px;
+   
 
 }
 
 .flex-item:nth-last-of-type(odd) {
     background-color: green;
-    max-height: 150px;
     overflow: hidden;
+
 }
    
 
@@ -20,10 +21,10 @@
 .container {
 
     border: 2px dotted red;
-    height: 600px;
-    display:flex; 
-    flex-direction:row; 
-    flex-wrap:wrap;
-    justify-content:center; 
-    align-content: space-around;
+    display: flex;
+ flex-direction: row;
+     flex-wrap: wrap; 
+     justify-content: center;
+     align-items: flex-start;
+
 }
