@@ -1,0 +1,50 @@
+img {
+
+    height: 100px;
+    margin-bottom: 100px;
+    transition: all 0.5s;
+    transform-origin: 100% 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.rotate img:hover {
+    transform: rotate(45deg)
+}
+
+
+.translate img:hover {
+    transform: translate(100px, 150px)
+}
+
+
+.scale img:hover {
+ transform: scale(2)
+}
+
+.animation img {
+animation-name: resize;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes resize {
+    0%, 100% {
+        height: 450px;
+    }
+
+    50% {
+
+        height:200px;
+        transform: translate3d(150px)
+    }
+
+
+    100% {
+
+height: 80px; 
+    }
+
