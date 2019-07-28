@@ -1,0 +1,27 @@
+.flex-item {
+    color: greenyellow;
+    font-family: 'lato', 'arial';
+    padding: 10px;
+    margin: 3px;
+    background-color: blue;
+    flex-basis: 20%;
+    flex-basis: 10%;
+    flex-grow: 5;
+}
+
+.flex-item:nth-last-of-type(odd) {
+    background-color: green;
+    
+
+}
+   
+
+
+.container {
+
+    border: 2px dotted red;
+    display: flex;
+ 
+  
+}
+
