@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color:  #777;
+    margin:0 auto;
+    padding: 0;
+
+}
+
+
+hr {
+    background-color: #007bff;
+    border: 0; 
+    height: 1px;
+    width: 100px;
+
+}
+
+
+section {
+    text-align: center;
+    padding: 110px 0;
+}
+
+.main-header-content {
+    height:60em;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #007bff;
+    padding: 100px;
+    
+    
+}
+
+.main-header-content h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+.button {
+    text-decoration: none;
+    text-transform: none;
+    border: 1px solid #007bff;
+    margin: auto;
+    display: inline-block;
+    padding: 15px 20px;
+    transition: all 1s;
+    color: #333;
+    background-color: transparent;
+}
+
+.button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+section header {
+    margin-bottom: 75px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    letter-spacing: 1px;
+    font-size: ;
+    font-weight: 100;
+
+}
+
+
+
+
+}
+
+footer {
+    background-color:  #f2f1ed;
+    text-align: center;
+    padding: 10px;
+}
+.main-header-content h1{
+    font-size: 4em;
+    margin: 0;
+    color: #007bff;
+
+}
+.main-header-content span{
+    color: #007bff;
+}
+
+.main-navi {
+    position: sticky;
+    top: 0;
+    background-color: #007bff;
+
+}
+
+
+.main-navi .nav-menu {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    margin: 10px;
+}
+
+.main-navi .nav-menu .navi-menu-item {
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+.main-navi .nav-menu .navi-menu-item a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.about-img {
+    border-radius: 50%;
+    max-width: 450px;
+    max-height: 450px;
+}
+
+.about p {
+    max-width: 700px;
+    margin: 40px auto 30px auto;
+}
+
+.portfolio {
+    background-color: #f2f1ed;
+}
+.portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-item {
+    flex-basis: 25%;
+    height:250px;
+    margin: 0;
+    position: relative;
+
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center:
+}
+
+
+.social-links {
+
+}
