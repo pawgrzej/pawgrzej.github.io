@@ -24,4 +24,7 @@
  
   
 }
+.ordered-item {
+    flex-grow: 3
+}
 
