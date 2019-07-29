@@ -1,0 +1,144 @@
+.first {
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    border: 1px solid white;
+    position: fixed;
+}
+
+.kwadrat {
+    width: 33.33%;
+    height: 33.33%;
+    position: absolute;
+
+
+}
+.kolo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+
+#k1{
+    background-color: red;
+    top: 0px;
+    left: 0px;
+    border: 1px white solid;
+
+
+}
+
+#k2{
+    background-color: green;
+    top: 0px;
+    right: 33.33%;
+    border: 1px white solid;
+}
+
+#k3{
+    background-color: blue;
+    top: 0px;
+    right: 0px;
+    border: 1px white solid;
+
+}
+
+#k4 {
+    background-color: aqua;
+    bottom: 33.33%;
+    left: 0px;
+    border: 1px white solid;
+}
+
+#k5{
+    background-color: blueviolet;
+    bottom: 33.33%;
+    right: 33.33%;
+    border: 1px white solid;
+    
+}
+
+#k6 {
+    background-color: brown;
+    bottom: 33.33%;
+    right: 0px;
+    border: 1px white solid;
+}
+
+#k7 {
+    background-color: orange;
+    bottom: 0px;
+    left: 0px;
+    border: 1px white solid;
+}
+
+#k8 {
+    background-color: pink;
+    bottom: 0px;
+    right: 33.33%;
+    border: 1px white solid;
+
+}
+
+#k9 {
+    background-color: black;
+    bottom: 0px;
+    right: 0px;
+    border: 1px white solid;
+}
+
+#o1 {
+background-color: aqua;
+top: 50px;
+left: 50px;
+}
+
+#o2 {
+    background-color: purple;
+    top: 50px;
+    left: 250px;
+}
+
+#o3 {
+    background-color: orange;
+    top: 50px;
+    right: 50px;
+}
+
+#o4 {
+    background-color: black;
+    top: 250px;
+    left: 50px;
+}
+
+#o5 {
+    background-color: red;
+    top: 250px;
+    left: 250px;
+}
+
+#o6 {
+    background-color: violet;
+    top: 250px;
+    right: 50px;
+}
+
+#o7 {
+    background-color: blue;
+    bottom: 50px;
+    left: 50px;
+}
+
+#o8 {
+    background-color: chartreuse;
+    bottom: 50px;
+    left: 250px;
+}
+
+#o9 {
+    background-color: white;
+    bottom: 50px;
+    right: 50px;
+}
