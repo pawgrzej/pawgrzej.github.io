@@ -1,0 +1,27 @@
+.input{
+    background-color: white;
+    width: 250px;
+    height: 250px;
+}
+
+
+h1 {
+
+color: blue;
+text-align: center;
+margin: o auto;
+font-size: 40px;
+padding: 10px;
+
+
+}
+
+
+h2 {
+    color:grey;
+        margin: auto;
+    text-align: center;
+    width: 85%;
+    font-size: 30px;
+}
+
