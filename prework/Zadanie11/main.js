@@ -1,3 +1,3 @@
-let napis = 'Uwielbiam JavaScrip!'
+let napis = '"Uwielbiam JavaScrip!"';
 
-console.log(napis)
+console.log( '' + napis);
