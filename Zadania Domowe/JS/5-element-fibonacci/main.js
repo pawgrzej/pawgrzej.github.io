@@ -17,6 +17,7 @@ function fibonacci(n) {
     }
 }
 
+console.log('Ciag Fibonaciego...' + fibonacci);
 
 
 

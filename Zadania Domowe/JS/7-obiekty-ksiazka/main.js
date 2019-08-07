@@ -10,13 +10,13 @@ constructor(autor, tytul, read) {
 
  opisKsiazki () {
 
-   if (this.read==false) {
-       return 'Kasiżka ma tytul"' + this.read +'", autorem jest "' 
-       + this.read + '" i nie zotsała przeczytana';
+   if (this.read ==false) {
+       return 'Kasiżka ma tytul"' + this.autor +'", autorem jest "' 
+       + this.tytul + '" i nie zotsała przeczytana';
    } 
    else {
-       return 'Ksiazka ma tytul"' +this.read + '",autorem jest"'
-       + this.read + '"i została przeczytana '}
+       return 'Ksiazka ma tytul"' +this.autor + '",autorem jest"'
+       + this.tytul+ '"i została przeczytana '}
    }
 
 };
@@ -32,15 +32,16 @@ let tablica =[k1,k2,k3];
 let suma = 0;
 
 function iloscRead(tablica) {
-    function iloscPrzeczytanych(tablica) {
-        tablica.forEach(function (elem, i) {
-          console.log(elem.iloscRead());
-          if (elem.read == true) {
-            suma += 1
-            return suma;
-          }
-        })
-    };
+tablica.forEach(function (elem, i) {
+  console.log(elem.opisKsiazki());
+  if (elem.read == true) {
+    suma += 1
+    return suma;
+  }
+})
+};
+
+  
     iloscRead(tablica);
 console.log('Liczba przeczytanych książek: ' + suma);
 

@@ -18,10 +18,10 @@ console.log(literowanie("Akademia108"))
 
 
 
-let tab = ['Akademia108','a','k','a','d','e','m','i','a','1','0','8']
+let tab = [,'a','k','a','d','e','m','i','a','1','0','8']
 
 tab.sort();
-console.log(tab)
+console.log(''+tab)
 
 /*Drugi Sposob*/
 
