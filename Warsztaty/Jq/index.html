@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ <title>Ćwiczenie na sucho</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<form id="pizza-order" action="">
+<input type="text" name="name" id="name" placeholder="Podaj imię" >
+
+<br>
+
+<input type="text" name="lastname" id="lastname" placeholder="Naziwsko" >
+<br>
+
+<input type="text" name="street" id="street" placeholder="Ulica" >
+
+<br>
+
+<input type="text" name="dom" id="dom" placeholder="Nr.Domu" >
+<br>
+<input type="text" name="post-code" id="post-code" placeholder="Kod-Pocztowy">
+<br>
+<input type="text" name="miasto" id="miasto" placeholder="Miasto">
+<br>
+ 
+<select name="pizza" id="pizza" placeholder="Pizza">
+    <option value="0">--Wybierz Pizze</option>
+    <option value="1">Hawajka</option>
+    <option value="2">Peperoni</option>
+    <option value="3">Margarita</option>
+    <option value="4">Carbonara</option>
+    <option value="5">Z jajcem</option> 
+   
+</select>
+
+<span id="price">0</span>
+<br>
+
+<input type="checkbox" id="pomidorowy" name="pomidorowy">Sos pomidorowy
+<br>
+<input type="checkbox" id="czosnkowy" name="czosnkowy">Sos czosnkowy
+<br>
+
+<input type="submit" value="Wyslij" id="button">
+ 
+</form>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script src="../Jq/main.js"></script>
+</body>
+</html>
