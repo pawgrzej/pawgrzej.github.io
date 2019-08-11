@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz zamówienia Pizzy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form id="pizza-order" action="">
+
+        <fieldset>
+            <!-- <label for="first-name">Imie: </label> -->
+            <input type="text" name="first-name" id="first-name" placeholder="Imie" />
+        </fieldset>
+
+        <fieldset>
+            <!-- <label for="last-name">Nazwisko: </label> -->
+            <input type="text" name="last-name" id="last-name" placeholder="Nazwisko" />
+        </fieldset>
+
+        <fieldset>
+            <!-- <label for="street">Ulica: </label> -->
+            <input class="streetAndNumber" type="text" name="street" id="street" placeholder="Ulica" />
+
+            <!-- <label for="street-no">Numer: </label> -->
+            <input class="streetAndNumber" type="text" name="street-no" id="street-no" placeholder="Numer" />
+        </fieldset>
+
+        <fieldset>
+
+            <input type="text" name="post-code" id="post-code" placeholder="Kod pocztowy" />
+
+
+            <input type="text" name="city" id="city" placeholder="Miasto" />
+        </fieldset>
+
+    
+            <label for="pizza">Pizza: </label>
+            <select name="pizza" id="pizza">
+                <option value="0">-- Wybierz Pizzę --</option>
+                <option value="1">Margherita</option>
+                <option value="2">Hawajska</option>
+                <option value="3">Peperoni</option>
+                <option value="4">Diabelska</option>
+                <option value="5">Wegetariańska</option>
+            </select>
+           
+            <span id="price">0 PLN</span>
+       
+
+        <fieldset>
+            <input type="checkbox" id="tomato-sauce">
+            <label for="tomato-sauce">Sos pomidorowy</label>
+
+            <input type="checkbox" id="garlic-sauce">
+            <label for="garlic-sauce">Sos pomidorowy</label>
+        </fieldset>
+
+        <fieldset>
+            <input type="checkbox" id="agree">
+            <label for="agree">Zgoda na RODO itp.</label>
+        </fieldset>
+
+        <input type="submit" value="Zamów" id="button" />
+
+        <ul id="errors"></ul>
+
+    </form>
+
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+
+    <!-- Custom Scripts	-->
+    <script src="js/pizza-order.js"></script>
+
+</body>
+
+</html>
