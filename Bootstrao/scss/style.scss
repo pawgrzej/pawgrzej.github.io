@@ -1,0 +1,25 @@
+@import 'zmienne';
+
+body {
+    color: $color;
+    font-size: $size;
+    background-color: $bg-color;
+}
+
+@mixin menu {
+    color: $light-color;
+    font-family: $kroj;
+    font-size: 15px;
+}
+
+nav {
+    padding: 15px;
+    ul {
+        li {
+            display: inline-block;
+            a {
+                @include menu;
+            }
+        }
+    }
+}
