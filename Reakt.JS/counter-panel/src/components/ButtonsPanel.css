@@ -1,0 +1,8 @@
+.button-panel {
+    margin: 30px;
+}
+.button-panel button {
+    display: inline-block;
+    margin: 0 15px;
+    background: var(--border-decor-color);
+}
