@@ -1,0 +1,19 @@
+Stwórz aplikację w ReactJS pobierającą co 5 sekund aktualny kurs Bitcoin w różnych walutach (np. USD, EUR itp.) 
+i wyświetlający listę kursu Bitcoin do tych walut. 
+ 
+Funkcjonalność aplikacji: - ticker z danymi kursu Bitcoin pobierz z https://blockchain.info/pl/ticker  
+- do AJAX użyj biblioteki axios 
+- Stwórz komponent Crypto.js, 
+
+który w sobie będzie zawierał komponent CryptoList.js (listę kursu Bitcoin do walut rzeczywistych np. USD, PLN itp.) - (* DODATKOWE) 
+Można dorobić filtrowanie wyświetlanych kursów rzeczywistej waluty do Bitcoin  
+ 
+Podpowiedź: 
+- state utrzymujemy w komponencie Crypto.js 
+- listę aktualnych kursów przekazujemy z Crypto.js przez PROPSy do CryptoList.js 
+- pierwsze pobranie danych uruchom w metodzie componentDidMount(), 
+którą dziedziczy Twój komponent Crypto.js po komponencie reactowym Component 
+– zapewnia ona, że komponent już na pewno się załadował 
+- aby pobierać dane co 5s musisz uruchomić TIMER --> patrz w dokumentacji setInterval() 
+- (* DODATKOWE) filtrowanie wyświetlanych kursów rzeczywistej waluty do Bitcoin można zrobić w 
+zwykłym polu <input /> obsługującym zdarzenie onChange J
