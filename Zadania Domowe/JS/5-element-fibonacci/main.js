@@ -15,9 +15,13 @@ function fibonacci(n) {
         }
         return c;
     }
+    
 }
 
-console.log('Ciag Fibonaciego...' + fibonacci);
+// console.log('Ciag Fibonaciego...' + fibonacci );
+console.log(fibonacci(13) + ': Jest to liczba z ciagu Fibonaciego');
+
+
 
 
 
