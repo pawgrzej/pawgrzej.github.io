@@ -1,0 +1,109 @@
+* {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+
+body{
+    background-color: #000;
+    color:#fff;
+}
+
+div.odliczanie{
+    position: relative;
+    width:50%;
+    height:50vh;
+    text-align: center;
+    margin-top:25%;
+    margin-left:25%;
+    font-size:10em;
+    font-weight: 100;
+}
+div.odliczanie-liczba{
+    position: absolute;
+    left:0;
+    right:0;
+}
+
+#dziesiec, #dziewiec, #osiem, #siedem, #szesc, #piec, #cztery, #trzy, #dwa, #jeden, #tekst {
+    visibility: hidden;
+}
+
+#dziesiec{
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+#dziewiec{
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+#osiem{
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+#siedem{
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+#szesc{
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+#piec{
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+}
+#cztery{
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+}
+#trzy{
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 7s;
+}
+#dwa{
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+}
+#jeden{
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+}
+#tekst{
+    animation: 1s fadeInOut;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+    font-size:70px;
+}
+
+@keyframes fadeIn {
+    0%{
+        visibility: hidden;
+    }
+    99%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+
+}
+
+@keyframes fadeInOut {
+    0%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+
+}
