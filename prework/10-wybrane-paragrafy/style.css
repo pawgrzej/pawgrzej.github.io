@@ -1,0 +1,53 @@
+body {
+    background-color: antiquewhite;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    width: 100px;
+}
+
+#Jeden {
+ background-color: blue;
+
+}
+
+#Dwa {
+    background: green;
+    opacity: 0.7;
+}
+
+#Trzy {
+    background: red;
+    opacity: 0.4;
+}
+
+#Cztery {
+    background: pink;
+    opacity: 0.1;
+}
+
+#Piec{
+    background: grey;
+
+}
+
+#Szesc {
+    background: brown;
+}
+
+#Siedem {
+    background: yellow;
+}
+
+#Osiem {
+    background: yellowgreen
+}
+
+#Dziewiec {
+    background: purple;
+}
+
+#Dziesiec {
+    background: paleturquoise;
+}
