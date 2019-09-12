@@ -26,6 +26,8 @@ div.odliczanie-liczba{
 
 #dziesiec, #dziewiec, #osiem, #siedem, #szesc, #piec, #cztery, #trzy, #dwa, #jeden, #tekst {
     visibility: hidden;
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
 }
 
 #dziesiec{

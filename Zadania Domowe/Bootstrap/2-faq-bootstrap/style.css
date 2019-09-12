@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    padding-top: 60px;
+    font-size: 30px;
+    text-align: center;
+}
+hr {
+    width: 50%;
+}
+div.card {
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.btn-link {
+    color: rgb(198, 115, 43);
+    line-height: 50px;
+    cursor: pointer;
+}
+.btn-link:hover {
+    color: orangered;
+}
