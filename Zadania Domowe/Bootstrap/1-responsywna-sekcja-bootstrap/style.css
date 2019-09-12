@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(131, 130, 130);
+}
+h1 {
+    font-size: 40px;
+    padding-top: 50px;
+}
+h2, sub {
+    font-size: 20px;
+    padding-top: 20px; 
+    padding-bottom: 40px;
+}
+hr { width: 20%; }
+i {
+    font-size: 66px;
+    color: rgba(221, 141, 2, 0.947);
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: rgba(167, 167, 167, 0.1);
+    padding-top: 33px;
+    padding-bottom: 50px;
+}
+.first {
+    padding-top: 30px;
+}
